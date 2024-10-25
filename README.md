@@ -4,7 +4,7 @@ This project demonstrates how an AI can learn to play **Flappy Bird** using the 
 
 ## Overview
 
-Each bird in the simulation is controlled by a **Neural Network** that decides whether to flap based on its inputs. Birds with the best performing neural networks are selected for the next generation, and small mutations are applied to their networks to introduce new behavior. This process continues across generations until the birds can successfully navigate through the environment.
+Each bird in the simulation is controlled by a **Neural Network** that decides whether to flap based on its inputs. Birds with the best-performing neural networks are selected for the next generation, and small mutations are applied to their networks to introduce new behavior. This process continues across generations until the birds can successfully navigate through the environment.
 
 ## How It Works
 
@@ -56,8 +56,6 @@ This project was heavily influenced by research and resources that helped guide 
     - [Neuroevolution of Augmenting Topologies (NEAT) - Connor Shorten](https://youtu.be/b3D8jPmcw-g?si=cYXFsVGeuDNijyFI)
     - [Snake learns with NEUROEVOLUTION (implementing NEAT from scratch in C++) - Tech with Nikola](https://youtu.be/lAjcH-hCusg?si=KqwSVm_Ezv7lWrSt)
 - **Inspiration**: The "Neat AI does Flappy Birds using NEAT and a Genetic Algorithm" project also served as a source of inspiration for my work. [Watch it here](https://youtu.be/ihX3-WDua2I?si=c3H7H50OZySyGrbp).
-
-This project represents months of learning and experimentation, from building a custom neural network to implementing NEAT from scratch.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
