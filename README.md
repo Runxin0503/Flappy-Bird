@@ -58,3 +58,6 @@ This project was heavily influenced by research and resources that helped guide 
 - **Inspiration**: The "Neat AI does Flappy Birds using NEAT and a Genetic Algorithm" project also served as a source of inspiration for my work. [Watch it here](https://youtu.be/ihX3-WDua2I?si=c3H7H50OZySyGrbp).
 
 This project represents months of learning and experimentation, from building a custom neural network to implementing NEAT from scratch.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
