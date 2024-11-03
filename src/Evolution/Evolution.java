@@ -20,6 +20,8 @@ public class Evolution {
     public static double mutationSynapseProbability,mutationNodeProbability,mutationWeightShiftProbability,mutationWeightRandomProbability,mutationBiasShiftProbability,mutationWeightShiftStrength,mutationWeightRandomStrength,mutationBiasShiftStrength;
     private Random rand;
 
+    
+    //Statistics after running simulation 20x: Avg generation - 36.75. Standard Deviation - 10.58
     public Evolution(int numSimulated){
         //config
         inputNum=4;
@@ -34,14 +36,14 @@ public class Evolution {
         compatibilityThreshold = 4;
         maxStagDropoff = 20;
 
-        mutationSynapseProbability=0.01;//*3
-        mutationNodeProbability=0.1;//*2
+        mutationSynapseProbability=0.03;
+        mutationNodeProbability=0.2;
 
-        mutationWeightShiftProbability=0.02;//*3
-        mutationWeightRandomProbability=0.02;//*3
-        mutationBiasShiftProbability=0.02;//*3
+        mutationWeightShiftProbability=0.06;
+        mutationWeightRandomProbability=0.06;
+        mutationBiasShiftProbability=0.06;
 
-        mutationWeightShiftStrength=1;//2
+        mutationWeightShiftStrength=2;
         mutationWeightRandomStrength=2;
         mutationBiasShiftStrength=0.3;
 
