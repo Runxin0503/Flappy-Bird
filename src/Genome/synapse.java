@@ -39,6 +39,9 @@ public class synapse{
     }
 
     @Override
+    public int hashCode(){return innovationID;}
+
+    @Override
     public synapse clone(){
         return new synapse(from,to,weight,enabled,innovationID);
     }

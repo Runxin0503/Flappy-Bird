@@ -42,6 +42,8 @@ public class node {
         return this.type.equals("hidden");
     }
 
+    @Override
+    public int hashCode(){return innovationID;}
 
     @Override
     public node clone(){

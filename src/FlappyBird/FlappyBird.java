@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 public class FlappyBird implements KeyListener {
     
     public static final int WIDTH = 640, HEIGHT = 480;
-    public static int FPS = 60;
+    public static int FPS = 1000;
     private Evolution evolution;
     private JFrame frame;
     private JPanel panel;
@@ -27,7 +27,7 @@ public class FlappyBird implements KeyListener {
     private int time, scroll,generations,difficulty,numAlive;
     private int numBirds,score=0,maxPipeRange,minPipeRange;
     private Random rand;
-    public double[] information; //notes: Generation 88. Score 64,041. See if this bird dies at all overnight
+    public double[] information;
     
     private boolean paused;
     
@@ -38,7 +38,7 @@ public class FlappyBird implements KeyListener {
         this.evolution = new Evolution(numBirds); //YEAH BABY
         this.maxPipeRange=100;
         this.minPipeRange=60;
-        rects = new ArrayList<Rectangle>();
+        rects = new ArrayList<>();
         panel = new GamePanel(this, rects);
         frame.add(panel);
         information = new double[4];
